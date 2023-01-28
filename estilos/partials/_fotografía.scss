@@ -1,0 +1,58 @@
+.item-II{
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    margin: 40px;
+    padding:50px;
+}
+
+.contenedor-2 {
+    height: auto;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas: 
+    "img-1 img-2 img-3 img-4"
+    "img-5 img-6 img-7 img-8"
+}
+.item-1 {
+    grid-area: img-1;
+    background-image: url(../imagenes/erik-color.jpg);
+}
+
+.item-2 {
+    grid-area: img-2;
+    background-image: url(../imagenes/cantanteb&n.jpg);
+  }
+  
+  .item-3 {
+    grid-area: img-3;
+    background-image: url(../imagenes/trompetab&n.jpg);
+  }
+  
+  .item-4 {
+    grid-area: img-4;
+    background-image: url(../imagenes/bateristacolor.jpg);
+  }
+  
+  .item-5 {
+    grid-area: img-5;
+    background-image: url(../imagenes/chello\ byn.jpg);
+  }
+  
+  .item-6 {
+    grid-area: img-6;
+    background-image: url(../imagenes/guitarra-color2.jpg);
+  }
+  
+  .item-7 {
+    grid-area: img-7;
+    background-image: url(../imagenes/equipob&n.jpg);
+  }
+  
+  .item-8 {
+    grid-area: img-8;
+    background-image: url(../imagenes/logo\ blanco.jpg);
+  }

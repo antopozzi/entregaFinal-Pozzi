@@ -1,0 +1,9 @@
+.imagen2{
+    background-color: $mainColor;
+    background-image: url(../imagenes/fixed1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+}

@@ -1,0 +1,223 @@
+/* @import url('https://fonts.cdnfonts.com/css/asgard-trial');
+
+@import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:blanchedalmond;
+}  */
+
+/* fonts */
+/* font-family: 'Asgard Trial', sans-serif;
+font-family: "Acumin Variable Concept"; src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot"); src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff") format("woff"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.svg#Acumin Variable Concept") format("svg"); */
+
+/* colors */
+
+/* CSS navbar */
+/* .navbar-brand{
+    font-family: 'Asgard Trial', sans-serif;
+    font-size: 26px;
+}
+.nav-link{
+    color:aliceblue;
+
+}
+.nav-link:hover{
+    color:grey;
+    transition:all 0.30s;
+} */
+
+/* css 1° imagen */
+/* .imagen1{
+    
+    background-color: black;
+    background-image: url(/imagenes/camarab&n.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+} */
+/* css NOSOTROS */
+
+/* .contenedor-nosotros{
+    padding:20px;
+
+}
+.strong1{
+    
+    font-size:25px;
+}
+h2, h3, h5{
+    font-family: 'Asgard Trial', sans-serif;
+}
+.lista-integrantes{
+    list-style:none;
+} */
+/* css imagen2 */
+
+/* .imagen2{
+    background-color: black;
+    background-image: url(/imagenes/fixed1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+} */
+/* css video */
+/* .contenedor-video{
+    width: 100%;
+    height: auto; 
+} */
+
+/* css tarjetas servicios */
+/* .titulos{
+    padding: 40px;
+} */
+
+/* css footer */
+/* footer{
+    text-align: center;
+    font-size:15px;
+    text-transform: capitalize;
+    padding:15px;
+} 
+
+footer p{
+    margin-bottom: 15px;
+}
+
+footer i{
+    font-size:20px;
+    letter-spacing: 15px;
+} 
+
+.yo{
+    font-size:16px;
+} */
+
+
+
+
+
+
+/* css fotografia */
+/* .presentacion-foto {
+    padding:30px;
+}
+
+.Presentacion p {
+    padding:40px;
+    border: 2px solid white;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+}
+
+.contenedor{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+    "img1 img2 img3 img3"
+    "img1 img2 img3 img3"
+    "img4 img2 img5 img6"
+    "img7 img7 img5 img8";
+} 
+
+.itemII{
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    margin:2px;
+}
+
+.item1{
+    grid-area: img1;
+    background-image: url(./imagenes/erik\ byn.jpg); 
+}
+
+.item2{
+    grid-area: img2;
+    background-image: url(./imagenes/guitarracolor.jpg); 
+   
+}
+
+.item3{
+    grid-area: img3;
+    background-image: url(./imagenes/chello\ byn.jpg); 
+}
+
+.item4{
+    grid-area: img4;
+    background-image: url(./imagenes/folclorecolor.jpg);
+   
+}
+.item5{
+    grid-area: img5;
+    background-image: url(./imagenes/percusionb&n.jpg);
+}
+.item6{
+    grid-area: img6;
+    background-image: url(./imagenes/chacarerab&n.jpg);
+}
+.item7{
+    grid-area: img7;
+    background-image: url(./imagenes/trompetab&n.jpg);
+     
+
+}
+.item8{
+    grid-area: img8;
+    background-image: url(./imagenes/jarana\ color.jpg);
+}
+
+@media screen and (max-width:768px){}
+    .contenedor{
+        height: auto;
+        background-size: cover;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 30vh);
+        grid-template-areas:
+        "img1 img2"
+        "img1 img2"
+        "img3 img4"
+        "img3 img4"
+        "img5 img6"
+        "img5 img6"
+        "img7 img8"
+        "img7 img8"
+    }
+    .item1{
+        background-position: center;
+    }
+    .item2{
+        background-position: top;
+    }
+    
+    @media screen and (max-width:480px){
+    .contenedor{
+        height: auto;
+        background-size: cover;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 50vh);
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8"
+    }
+    .item5{
+        background-position: top;
+    } */
+/* fin estilos fotografia */

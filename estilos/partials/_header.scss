@@ -1,0 +1,17 @@
+header{
+.navbar-brand{
+    font-family: $fontAsgard;
+    font-size: 26px;
+}
+.navbar-nav{
+    color:$secundaryColor;
+}
+    & .navbar-nav:hover{
+        color: grey;
+        transition:all 0.30s;
+    }
+}
+
+.navbar-toggler {
+    justify-content: end;
+}
