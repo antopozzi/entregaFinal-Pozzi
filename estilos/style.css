@@ -86,7 +86,7 @@ footer i {
 .contenedor {
   height: auto;
   display: grid;
-  padding: 40px;
+  padding: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 50vh);
   grid-template-areas: "img1 img2 img4 img5" "img3 img3 img3 img3" "img6 img7 img8 img9";
