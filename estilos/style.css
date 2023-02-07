@@ -212,6 +212,19 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../imagenes/logo\ blanco.jpg);
 }
 
+.icons-redes {
+  font-size: 30px;
+}
+
+.icons-redes:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 744px) {
+  .imagen1 {
+    background-position: right;
+  }
+}
 @media screen and (max-width: 963px) {
   .imagen2 {
     background-color: #c043a5;
@@ -223,9 +236,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 70vh;
   }
 }
-@media screen and (max-width: 641px) {
-  .container-tarjetas {
-    padding-left: 30%;
+@media screen and (max-width: 639px) {
+  section.container-tarjetas {
+    align-items: center;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -268,5 +281,10 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 50vh);
     grid-template-areas: "img-1" "img-2" "img-3" "img-4" "img-5" "img-6" "img-7" "img-8";
+  }
+}
+@media screen and (max-width: 663px) {
+  .cards-redes {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,9 @@
 // media queries index
+@media screen and (max-width:744px){
+.imagen1{
+    background-position: right;
+} }
+
 @media screen and (max-width:963px){
     .imagen2{
             background-color: #c043a5;
@@ -11,11 +16,15 @@
         }
     }
 
-@media screen and (max-width:641px){
-    .container-tarjetas{
-        padding-left: 30%;
+
+
+@media screen and (max-width:639px){
+    section.container-tarjetas{
+        align-items: center;
     }
-}
+    }
+
+
 // media queries eventos
 
 @media screen and (max-width: 1024px) {
@@ -87,4 +96,13 @@
     }
 }
 
+// mediaqueries contacto - tarjetas redes
 
+@media screen and (max-width:663px){
+    .cards-redes{
+        flex-direction:column;
+    }
+    
+}
+
+// mediaqueries 
