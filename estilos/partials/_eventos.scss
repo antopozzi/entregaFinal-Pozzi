@@ -2,7 +2,7 @@
 .contenedor {
     height: auto;
     display: grid;
-    padding:40px;
+    padding:30px;
     grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(3, 50vh);
       grid-template-areas: 
@@ -13,11 +13,11 @@
   }
   
   .itemII {
-    background-color: blue;
+    background-color: black;
     background-size: cover;
     background-position: center;
     border: 2px solid white;
-    margin: 2px;
+    width:100%;
   }
   
   .item1 {
@@ -28,7 +28,7 @@
   
   .item2 {
     grid-area: img2;
-    background-image: url(../imagenes/flyer-cumbia.jpg);
+    background-image: url(../imagenes/flyer-cumbia2.jpg);
   }
   
   .item3 {

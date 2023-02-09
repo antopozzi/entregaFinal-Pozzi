@@ -1,0 +1,41 @@
+.main-managment{
+    overflow-x: hidden;
+}
+
+.presentacion-magnament{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.servicios-magnament{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:30px;
+    font-size: 20px;
+}
+.managment1{
+    display:flex;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    height: auto;
+}
+
+.div-magnament1 .div-managment4{
+    align-items: center;
+    justify-content: center;
+}
+
+.div-magnament2{
+    background-image: url(../imagenes/magnament1.jpg);
+    background-size: cover;
+    height:400px;
+    
+}
+
+.div-magnament3{
+    background-image: url(../imagenes/magnament2.jpg);
+    background-size: cover;
+    height:400px;
+    
+}

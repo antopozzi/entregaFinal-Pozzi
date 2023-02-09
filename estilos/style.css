@@ -69,6 +69,8 @@ footer {
   font-size: 15px;
   text-transform: capitalize;
   padding: 15px;
+  font-family: "Asgard Trial", sans-serif;
+  
 }
 footer p {
   margin-bottom: 15px;
@@ -86,18 +88,18 @@ footer i {
 .contenedor {
   height: auto;
   display: grid;
-  padding: 40px;
+  padding: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 50vh);
   grid-template-areas: "img1 img2 img4 img5" "img3 img3 img3 img3" "img6 img7 img8 img9";
 }
 
 .itemII {
-  background-color: blue;
+  background-color: black;
   background-size: cover;
   background-position: center;
   border: 2px solid white;
-  margin: 2px;
+  width: 100%;
 }
 
 .item1 {
@@ -108,7 +110,7 @@ footer i {
 
 .item2 {
   grid-area: img2;
-  background-image: url(../imagenes/flyer-cumbia.jpg);
+  background-image: url(../imagenes/flyer-cumbia2.jpg);
 }
 
 .item3 {
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .item-II {
-  background-color: pink;
+  background-color: black;
   background-size: cover;
   background-position: center;
   border: 2px solid white;
@@ -212,6 +214,48 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../imagenes/logo\ blanco.jpg);
 }
 
+.main-managment {
+  overflow-x: hidden;
+}
+
+.presentacion-magnament {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.servicios-magnament {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.managment1 {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: auto;
+}
+
+.div-magnament1 .div-managment4 {
+  align-items: center;
+  justify-content: center;
+}
+
+.div-magnament2 {
+  background-image: url(../imagenes/magnament1.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.div-magnament3 {
+  background-image: url(../imagenes/magnament2.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
 .icons-redes {
   font-size: 30px;
 }
@@ -259,6 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 442px) {
   .contenedor {
+    width: 100%;
     background-size: cover;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(9, 50vh);
@@ -286,5 +331,19 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 663px) {
   .cards-redes {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 776px) {
+  .servicios-magnament {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .servicios-magnament .div-magnament1 {
+    height: auto;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
